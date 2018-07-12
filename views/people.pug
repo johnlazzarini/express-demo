@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    title Driver's License Flashcards
+  body
+    header
+      h1 Driver's License Flashcards
+    section#content
+      table
+        each person in people
+          tr
+            th= person[0]
+            th= person[1]
